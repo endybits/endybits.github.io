@@ -64,3 +64,21 @@ button {
     cursor: pointer;
     transition: all 0.3s ease 0s;    
 }
+
+.container {
+    margin-left: 80px;
+    margin-top: 60px;
+    margin-right: 80px;
+    max-width: 900px;
+}
+
+.img_container img {
+    max-width: 400px;
+    max-height: 400px;
+}
+.repo_link button {
+    text-decoration: none;
+    background-color: black;
+    color:#36C4B7;
+}
+
