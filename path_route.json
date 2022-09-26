@@ -1,0 +1,53 @@
+{
+    "area": "Machine Learning",
+    "algorithms": [
+        {
+            "type": "Supervised",
+            "description": "Lorem...",
+            "Subcategory": [
+                {
+                    "name": "Regression",
+                    "algorithm": "Linear Regression",
+                    "application": [
+                    "case 1",
+                    "case 2",
+                    "case 3"
+                    ]
+                },
+                {
+                    "name": "Classification",
+                    "algorithm": "an example",
+                    "application": [
+                    "case 1",
+                    "case 2",
+                    "case 3"
+                    ]
+                }
+            ]
+        },
+        {
+            "type": "Unsupervised",
+            "description": "Lorem...",
+            "Subcategory": [
+                {
+                    "name": "Regression",
+                    "algorithm": "Linear Regression",
+                    "application": [
+                    "case 1",
+                    "case 2",
+                    "case 3"
+                    ]
+                },
+                {
+                    "name": "Classification",
+                    "algorithm": "an example",
+                    "application": [
+                    "case 1",
+                    "case 2",
+                    "case 3"
+                    ]
+                }
+            ]
+        }
+    ]
+}
