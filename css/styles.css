@@ -1,84 +1,99 @@
 body {
-    box-sizing: border-box;
-    padding: 0;
-    margin: 0;
-    background: rgba(54,196,183,1);
-    font-family: 'Oxygen Mono', monospace;
-    font-family: 'Roboto Mono', monospace;
-    font-family: 'Space Mono', monospace;
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
 }
 
 header {
-    display: flex;
-    justify-content: flex-end;
-    align-items: center;
-    padding: 30px, 20px;
-    background-color: black;
+  background-color: #ddd;
+  padding: 20px;
+  text-align: center;
 }
 
-.logo {
-    color: #FD5765;
-    text-decoration: none;
-    font-size: 3.5em;
-    margin-right: auto;
-    margin-left: 80px;
-    padding-top: 16px;
-    padding-bottom: 16px;
+nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
 }
 
-.nav_links {
-    list-style: none;
+nav li {
+  margin: 0 10px;
 }
 
-.nav_links li {
-    display: inline-block;
-    padding: 0, 20px;
-    margin-right: 20px;
+nav a {
+  color: #000;
+  text-decoration: none;
 }
 
-.nav_links a, li {
-    color: #FD5765;
-    font-size: 1.1em;
-    text-decoration: none;
+main {
+  padding: 20px;
 }
 
-.nav_links li a:hover {
-    color: #36C4B7;
+section {
+  margin-bottom: 20px;
 }
 
-button {
-    background-color: #FD5765;
-    color: black;
-    font-size: 1.2em;
-    font-weight: bold;
-    margin: 0, 50px;
-    border: none;
-    border-radius: 50px;
-    padding: 9px, 25px;
-    margin-left: 20px;
-    margin-right: 80px;
-    padding-right: 16px;
-    padding-left: 16px;
-    padding-top: 3px;
-    padding-bottom: 3px;
-    cursor: pointer;
-    transition: all 0.3s ease 0s;    
-}
-
-.container {
-    margin-left: 80px;
-    margin-top: 60px;
-    margin-right: 80px;
-    max-width: 900px;
+section h2 {
+  text-align: center;
 }
 
 .img_container img {
-    max-width: 400px;
-    max-height: 400px;
-}
-.repo_link button {
-    text-decoration: none;
-    background-color: black;
-    color:#36C4B7;
+  max-width: 400px;
+  max-height: 400px;
 }
 
+form label {
+  display: block;
+  margin-bottom: 10px;
+}
+
+form input[type='text'],
+form input[type='email'],
+form textarea {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  resize: vertical;
+}
+
+form input[type='submit'] {
+  width: 100%;
+  background-color: #4caf50;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+form input[type='submit']:hover {
+  background-color: #45a049;
+}
+
+footer {
+  text-align: center;
+  background-color: #ddd;
+  padding: 20px;
+}
+
+.social-links {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.social-links a {
+  margin: 0 10px;
+  color: #000;
+  font-size: 30px;
+}
+
+.social-links a:hover {
+  color: #555;
+}
